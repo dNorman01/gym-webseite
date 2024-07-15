@@ -87,19 +87,19 @@ body {
     font-size: 30px;        /* Schriftgröße des Fußbereichs. */
 }
 .countdown-heading {
-    margin: 250px 0 0 0;
-    color: white;
-    text-align: center;
-    letter-spacing: 0.1em;
-    font-size: 28px;
-    font-weight: normal;
-    text-transform: uppercase;
+    margin: 250px 0 0 0;            /* Außenabstand: 250px oben, 0px rechts, 0px unten, 0px links. */
+    color: white;                 /* Textfarbe ist Weiß. */
+    text-align: center;             /* Text wird zentriert ausgerichtet. */
+    letter-spacing: 0.1em;          /* Abstand zwischen den Buchstaben ist 0.1em. */
+    font-size: 28px;                /* Schriftgröße beträgt 28px. */
+    font-weight: normal;            /* Schriftstärke ist normal. */
+    text-transform: uppercase;      /* Text wird in Großbuchstaben umgewandelt. */
 }
 .countdown-paragraph {
-    margin: 0;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 58px;
+    margin: 0;                      /* Kein Außenabstand (oben, rechts, unten, links). */
+    color: white;                 /* Textfarbe ist Weiß. */
+    text-align: center;             /* Text wird zentriert ausgerichtet. */
+    text-transform: uppercase;      /* Text wird in Großbuchstaben umgewandelt. */
+    font-size: 58px;                /* Schriftgröße beträgt 58px. */
 
 }
