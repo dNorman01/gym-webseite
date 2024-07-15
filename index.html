@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8">      <!-- Zeichenkodierung für das Dokument -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!-- Viewport-Einstellungen für responsives Design -->
+
+    <link rel="stylesheet" href="style01.css">      <!-- Verknüpfung mit externer CSS-Datei -->
+    <title>Norman Gym</title>                       <!-- Titel des Dokuments -->
 </head>
 <body>
-    <h1>1.Ordnung!!</h1>
+    <div class="page">
+        <div class="main-content">      <!-- Hauptinhalt des Dokuments -->
+            <header>
+                <img src="images/logo.svg" class="logo" alt="Logo of Paradox">  <!-- Logo des Gym -->
+            </header>
+            <main class="main-offer">                           <!-- Hauptangebot des Gym -->
+                <h1 class="main-heading">                       <!-- Hauptüberschrift des Angebots -->
+                    Sing up <strong>today</strong><br>          <!-- Text: Heute anmelden -->
+                    and claim your<br>                          <!-- Text: und hol dir -->
+                    <strong>lifetime membership</strong><br>    <!-- Text: Lebenslange Mitgliedschaft -->
+                    for only<br>                                <!-- Text: nur -->
+                    <strong class="main-offer-price">199$</strong>  <!-- Preis: 199$ -->
+                </h1>
+                <button class="main-button-style"><strong>join today</strong></button>  <!-- Button: Heute beitreten -->
+            </main>
+            <footer class="footer-down">        <!-- Fußbereich des Dokuments -->
+                <p>Createt from Norman!</p>     <!-- Text: Erstellt von Norman -->
+                <a href="#">Terms of Use</a>|<a href="#">Private Police</a>     <!-- Links zu den Nutzungsbedingungen und Datenschutzbestimmungen -->
+            </footer>    
+        </div>
+        <section class="countdown">
+            <h2 class="countdown-heading">Deal ends in:</h2>
+            <p class="countdown-paragraph"><strong>2</strong> DAYS</p>
+        </section>
+    </div>
 </body>
 </html>

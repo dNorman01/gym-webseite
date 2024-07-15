@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;     /* Alle Elemente verwenden das border-box-Box-Modell. */
+}
+
+html {
+    min-height: 100%;       /* Das HTML-Element ist mindestens so hoch wie der sichtbare Bereich des Browserfensters. */
+}
+
+body {    
+    min-height: 100%;       /* Der Body ist mindestens so hoch wie der sichtbare Bereich des Browserfensters. */
+    margin: 0;              /* Kein Außenabstand für den Body. */
+    padding: 0;             /* Kein Innenabstand für den Body. */
+
+    background-color: rgb(100, 100, 100);   /* Hintergrundfarbe ist Grau. */
+    /* Hintergrundbilder für Farbverlauf, Wellen, vertikalen Farbverlauf und Foto. */
+
+    background-image: 
+        linear-gradient(90deg, rgb(226,29,60) 40%, rgba(0, 0, 0, 0.5) 40%, transparent 45%),
+        url("images/waves-cropped.svg"),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+        url("images/pexels-cesar-galeao-3289711-gray.jpg");
+
+    background-repeat: 
+        no-repeat, no-repeat, no-repeat, no-repeat;        /* Hintergrundbilder werden nicht wiederholt. */
+
+    background-size: 
+        100% 100%, 40% auto, 100% 100%, 60% auto;       /* Größen der Hintergrundbilder. */
+
+    background-position: 
+        50% 50%, 100% 100%, 50% 50%, 100% 15%;          /* Positionen der Hintergrundbilder. */
+}
+.page {
+    display: flex;
+}
+.main-content {
+    width: 40%;         /* Breite des Hauptinhalts ist 40%. */
+}
+.countdown {
+    width: 60%;
+}
+.logo {
+    width: 275px;       /* Breite des Logos. */
+    margin: 15px 15px;  /* Außenabstand des Logos. */
+}
+.main-offer {
+    margin-top: 75px;       /* Oberer Außenabstand des Hauptangebots. */
+    margin-bottom: 75px;    /* Unterer Außenabstand des Hauptangebots. */
+    margin-left: 65px;      /* Linker Außenabstand des Hauptangebots. */
+    margin-right: 15px;     /* Rechter Außenabstand des Hauptangebots. */
+}
+.main-heading {
+    margin-top: 0;          /* Kein Außenabstand für die Hauptüberschrift. */
+    margin-bottom: 0;       /* Buchstabenabstand der Hauptüberschrift. */
+    letter-spacing: 0.1em;  /* Kursiver Text für die Hauptüberschrift. */
+    font-style: italic;     /* Schriftgröße der Hauptüberschrift. */
+    font-size: 30px;
+    font-weight: normal;
+    color: white;       /* Textfarbe der Hauptüberschrift. */
+}
+.main-heading > strong {
+    text-transform: uppercase;      /* Text im starken Tag wird in Großbuchstaben umgewandelt. */
+}
+.main-offer-price {
+    display: block;     /* Preis im Hauptangebot wird als Blockelement dargestellt. */
+    font-size: 150px;   /* Schriftgröße des Preises im Hauptangebot. */
+    margin-top: 10px;   /* Oberer Außenabstand des Preises im Hauptangebot. */
+}
+.main-button-style {
+    display: block;                     /* Hauptbutton wird als Blockelement dargestellt. */
+    background-color: black;          /* Hintergrundfarbe des Hauptbuttons. */
+    color: white;                     /* Textfarbe des Hauptbuttons. */
+    font-size: 24px;                    /* Schriftgröße des Hauptbuttons. */
+    text-align: center;                 /* Textausrichtung des Hauptbuttons. */
+    text-transform: uppercase;          /* Text im Hauptbutton wird in Großbuchstaben umgewandelt. */
+    width: 50%;                         /* Breite des Hauptbuttons. */
+    margin-top: 30px;                   /* Oberer Außenabstand des Hauptbuttons. */
+    border-top: 20px solid black;     /* Randstil des Hauptbuttons. */
+    border-right: 28px solid black;   /* Randstil des Hauptbuttons. */
+    border-left: 28px solid black;;   /* Randstil des Hauptbuttons. */
+    border-bottom: 20px solid black;  /* Randstil des Hauptbuttons. */
+    border-radius: 10em;                /* Abrundung der Ecken des Hauptbuttons. */
+}
+.footer-down {
+    margin-top: 25%;        /* Oberer Außenabstand des Fußbereichs. */
+    margin-left: 15px;      /* Linker Außenabstand des Fußbereichs. */
+    color: white;         /* Textfarbe des Fußbereichs. */
+    font-size: 30px;        /* Schriftgröße des Fußbereichs. */
+}
+.countdown-heading {
+    margin: 250px 0 0 0;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.countdown-paragraph {
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 58px;
+
+}
